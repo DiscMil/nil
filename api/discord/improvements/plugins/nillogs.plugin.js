@@ -1517,7 +1517,7 @@ module.exports = class MessageLoggerV2 {
             type: 'switch'
           },
           {
-            name: 'Cache all images by storing them locally in the nil_logs folder inside the plugins folder',
+            name: 'Cache all images by storing them locally in the nil_logs_cache folder inside the plugins folder',
             id: 'cacheAllImages',
             type: 'switch'
           },
