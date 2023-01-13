@@ -4524,7 +4524,7 @@ module.exports = class MessageLoggerV2 {
   }
   // >>-|| MENU MODAL CREATION ||-<<
   openWindow(type) {
-    return;
+    //return;
     if (this.menu.open) {
       this.menu.scrollPosition = 0;
       if (type) this.openTab(type);
